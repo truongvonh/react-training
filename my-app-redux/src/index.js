@@ -2,6 +2,7 @@ import {createStore} from 'redux';
 import ReactDOM from 'react-dom';
 import {Provider} from 'react-redux';
 import React, {Component} from 'react';
+import './index.css'
 // components
 import {rootreducer} from './reducers'
 import AddTodo from './container/add_todo/Add_todo'
